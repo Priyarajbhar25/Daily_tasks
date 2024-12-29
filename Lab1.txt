@@ -1,0 +1,60 @@
+1. Calculate the multiplication and sum of two numbers.
+
+#Taking input values from user 
+number1=int(input('Enter the first number : '))
+number2=int(input('Enter the second number : '))
+
+#Calculation
+multiplication= number1 * number2
+sum= number1 + number2
+
+#printing result of calculation
+print('Multiplication of ',number1,' and ', number2 ,'is :' ,multiplication)
+print('Sum of ',number1,' and ', number2 ,'is :' ,sum)
+
+
+2. Declare two variables and print that which variable is largest using ternary operators
+
+#Taking input values from user 
+number1=int(input('Enter the first number : '))
+number2=int(input('Enter the second number : '))
+
+#Using a ternary operator to find the largest
+largest=number1 if (number1>number2) else number2
+
+
+#printing result 
+print('largest value is :' ,largest)
+
+
+3. Python program to convert the temperature in degree centigrade to Fahrenheit
+
+#Taking input values from user for celsius
+celsius=float(input('Enter the temperature in celsius: '))
+
+#Convert to Fahrenheit
+fahrenheit=(celsius * 9/5) + 32
+
+#printing result
+print(celsius , '°C is equal to ',fahrenheit ,'°F.')
+
+
+4. Python program to find the area of a triangle whose sides are given
+
+#taking inputs values from user
+side1= float(input('Enter first side: '))
+side2= float(input('Enter second side: '))
+side3= float(input('Enter third side: '))
+
+#calculate the semi-perimeter
+side=(side1 + side2 + side3) / 2
+
+#calculate the area
+area=(side*(side-side1)*(side-side2)*(side-side3)) ** 0.5
+
+#printing result
+print('The area of the triangle is ' ,area)
+
+
+
+
